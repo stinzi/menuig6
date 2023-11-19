@@ -30,6 +30,11 @@ export const menuData: Record<'beverages' | 'food', MenuItem[]> = {
             name: "Panino",
             description: "panino con mortadella",
             cost: 4,
+        },
+        {
+            name: "frutta",
+            description: "mele,pere",
+            cost: 2,
         }
     ]
 }
