@@ -1,24 +1,39 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useCallback, useState } from "react";
+import { Header } from "./components/Header";
+import { MenuItem } from "./components/MenuItem";
+import { menuData } from "./data";
+import "./index.css";
 
 function App() {
+  const [menuSection, setMenuSection] = useState<"food" | "beverages">("beverages");
+
+  const handleMenuSectionChange = useCallback((section: "food" | "beverages") => {
+    setMenuSection(section);
+  }, [setMenuSection]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container max-w-md mx-auto">
+      <Header activeSection={menuSection} handleSectionClick={handleMenuSectionChange} />
+      <>
+        {menuSection === "food" && (
+          <div className="cibo">
+            {menuData.food.map((item) => (
+              <MenuItem
+                {...item}
+              />
+            ))}
+          </div>
+        )}
+        {menuSection === "beverages" && (
+          <div className="bere">
+            {menuData.beverages.map((item) => (
+              <MenuItem
+                {...item}
+              />
+            ))}
+          </div>
+        )}
+      </>
     </div>
   );
 }
