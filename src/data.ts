@@ -4,14 +4,17 @@ export const menuData: Record<'beverages' | 'food', MenuItem[]> = {
     "beverages": [
         {
             name: "Caffe",
-            cost: 1.3
+            description: "normale e decaffeinato",
+            cost: 1.50,
         },
         {
-            name: "Cappuccino",
-            cost: 2
+            name: "ginseng",
+            description: "",
+            cost: 1.50,
         },
         {
-            name: "CoCa Cola",
+            name: "bibite",
+            description: "cocacola,",
             cost: 2
         },
     ],
@@ -22,7 +25,7 @@ export const menuData: Record<'beverages' | 'food', MenuItem[]> = {
             cost: 2,
         },
         {
-            name: "Torta",
+            name: "Torte",
             description: "torta di mele",
             cost: 5,
         },
