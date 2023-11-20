@@ -7,7 +7,7 @@ export const MenuItem: React.FC<Props> = ({
     cost,
 }) => {
     return (
-        <div className="container min-h-[100px] flex flex-row items-center p-4">
+        <div className="container  flex flex-row items-center px-4 mb-4">
             <div className="container flex flex-col ml-4">
                 <div className="flex flex-row justify-between border-b border-slate-300">
                     <h1 className="text-2xl font-semibold mb-2">

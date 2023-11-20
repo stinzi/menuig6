@@ -8,7 +8,7 @@ type Props = {
 export const Header: React.FC<Props> = ({ activeSection, handleSectionClick }) => {
     return (
         <header className="container text-center p-5 mb-5">
-            <p className="text-4xl font-bold">
+            <p className="text-4xl border-4 border-red-400 font-bold">
                 MENU'
             </p>
             <p className="text-l font-semibold my-4">
