@@ -5,59 +5,60 @@ export const menuData: Record<'beverages' | 'food', MenuItem[]> = {
         {
             name: "Caffe",
             description: "normale e decaffeinato",
+            cost: 1,
+        },
+        {
+            name: "Ginseng",
             cost: 1.50,
         },
         {
-            name: "ginseng",
-            cost: 1.50,
-        },
-        {
-            name: "succhi",
+            name: "Succhi",
             description: "",
             cost: 2,
         },
         {
-            name: "té e tisane",
+            name: "Té e tisane",
             description: "(calde)",
             cost: 1.50,
         },
         {
-            name: "bibite",
+            name: "Bibite",
             description: "cocacola,estathe",
             cost: 2,
         },
         {
-            name: "amari e liquori",
+            name: "Amari e Liquori",
             description: "quali",
             cost: 3,
         }
         ],
     
     "food":[
-        {
-            name: "Pizza",
-            description: "pizza margherita",
-            cost: 2,
-        },
+
         {
             name: "Dolci",
             description: "torta,crostate,brownies",
-            cost: 5,
+            cost: 1.50,
         },
         {
-            name: "biscotti",
-            description: "es..",
-            cost: 4,
+            name: "Pabassine",
+            cost: 2,
         },
         {
             name: "Salato",
             description: "pizzette,torte salate",
-            cost: 2,
+            cost: 1.50 ,
         },
         {
-            name: "pancake",
+            name: "Waffle",
             description: "marmellata,nutella",
-            cost: 3 
+            cost: 3 , 
         },
+        {
+            name: "Biscotti",
+            description: "frollini e frollini con marmellata",
+            cost: 0.50 ,
+        },
+
     ]
 }
