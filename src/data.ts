@@ -69,13 +69,14 @@ export const menuData: Record<'beverages' | 'food' |'cards', MenuItem[]> = {
     "cards":[
 
         {
-            name: "Dolci",
-            description: "torta,crostate,brownies",
-            cost: 1.50,
+            name: "Tessera S",
+            description: "10 slot da 0.50cent",
+            cost: 5,
         },
         {
-            name: "Pabassine",
-            cost: 2,
+            name: "Tessera L",
+            description: "20 slot da 0.50cent ",
+            cost: 10,
         },
         
     ]
