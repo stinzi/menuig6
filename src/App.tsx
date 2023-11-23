@@ -43,6 +43,16 @@ function App() {
           </div>
         )}
       </>
+      <h2 className="text-black-400 text-xl text-center m-4 font-semibold" >
+                        I nostri viaggi:
+
+      </h2>
+      <div className="flex flex-col gap-3">  {/** contenitore*/}
+        <img src="/monte.png"/> {/** immagine*/}
+        <img src="/vulcano.png" /> {/** immagine*/}
+        <img src="/aereo.png" /> {/** immagine*/}
+        <img src="/luna.png" className="w-full"/>
+      </div>
     </div>
   );
 }
