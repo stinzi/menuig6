@@ -1,6 +1,6 @@
 import { MenuItem } from "./types";
 
-export const menuData: Record<'beverages' | 'food' |'cards', MenuItem[]> = {
+export const menuData: Record<'beverages' | 'food' | 'cards', MenuItem[]> = {
     "beverages": [
         {
             name: "Caffe",
@@ -13,7 +13,6 @@ export const menuData: Record<'beverages' | 'food' |'cards', MenuItem[]> = {
         },
         {
             name: "Succhi",
-            description: "",
             cost: 2,
         },
         {
@@ -23,7 +22,7 @@ export const menuData: Record<'beverages' | 'food' |'cards', MenuItem[]> = {
         },
         {
             name: "Bibite",
-            description: "cocacola,estathe",
+            description: "cocacola, estathe",
             cost: 2,
         },
         {
@@ -31,12 +30,12 @@ export const menuData: Record<'beverages' | 'food' |'cards', MenuItem[]> = {
             description: "acqua vite, mirto",
             cost: 3,
         }
-        ],
-    
-    "food":[
+    ],
+
+    "food": [
         {
             name: "Dolci",
-            description: "torta,crostate,brownies",
+            description: "torta, crostate, brownies",
             cost: 1.50,
         },
         {
@@ -45,29 +44,27 @@ export const menuData: Record<'beverages' | 'food' |'cards', MenuItem[]> = {
         },
         {
             name: "Salato",
-            description: "pizzette,torte salate",
-            cost: 1.50 ,
+            description: "pizzette, torte salate",
+            cost: 1.50,
         },
         {
             name: "Toast e Tramezzini",
             description: "prosciutto e formaggio",
-            cost: 2.50 ,
+            cost: 2.50,
         },
         {
             name: "Waffle",
-            description: "marmellata,nutella",
-            cost: 3 , 
+            description: "marmellata, nutella",
+            cost: 3,
         },
         {
             name: "Biscotti",
             description: "frollini e frollini con marmellata",
-            cost: 0.50 ,
+            cost: 0.50,
         },
+    ],
 
-         ],
-
-    "cards":[
-
+    "cards": [
         {
             name: "Tessera S",
             description: "10 slot da 0.50cent",
@@ -78,6 +75,5 @@ export const menuData: Record<'beverages' | 'food' |'cards', MenuItem[]> = {
             description: "20 slot da 0.50cent ",
             cost: 10,
         },
-        
     ]
 }

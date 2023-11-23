@@ -7,7 +7,7 @@ export const MenuItem: React.FC<Props> = ({
     cost,
 }) => {
     return (
-        <div className="container  flex flex-row items-center px-4 mb-4">
+        <div className="container flex flex-row items-center px-4 mb-4">
             <div className="container flex flex-col ml-4">
                 <div className="flex flex-row justify-between border-b border-slate-300">
                     <h1 className="text-2xl font-semibold mb-2">
@@ -17,11 +17,9 @@ export const MenuItem: React.FC<Props> = ({
                         {cost.toString().replace(".", ",")}€
                     </h2>
                 </div>
-                {description &&
-                    <p className="text-slate-400">
-                        {description}
-                    </p>
-                }
+                <p className="text-slate-500 min-h-[24px]">
+                    {description}
+                </p>
             </div>
         </div>
     );
