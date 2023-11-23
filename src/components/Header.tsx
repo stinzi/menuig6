@@ -18,7 +18,7 @@ export const Header: React.FC<Props> = ({ activeSection, handleSectionClick }) =
             <div>
                 <button className={`text-xl font-semibold mr-5 border-red-600 ${activeSection === "food" ? "border-b-4" : ""}`}
                     onClick={() => handleSectionClick("food")}>
-                    Cibo
+                    Cibi
                 </button>
                 <button className={`text-xl font-semibold mr-5 border-red-600 ${activeSection === "beverages" ? "border-b-4" : ""}`}
                     onClick={() => handleSectionClick("beverages")}>
