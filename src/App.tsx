@@ -5,9 +5,9 @@ import { menuData } from "./data";
 import "./index.css";
 
 function App() {
-  const [menuSection, setMenuSection] = useState<"food" | "beverages">("beverages");
+  const [menuSection, setMenuSection] = useState<"food" | "beverages" | "cards" >("beverages");
 
-  const handleMenuSectionChange = useCallback((section: "food" | "beverages") => {
+  const handleMenuSectionChange = useCallback((section: "food" | "beverages" | "cards") => {
     setMenuSection(section);
   }, [setMenuSection]);
 
@@ -27,6 +27,15 @@ function App() {
         {menuSection === "beverages" && (
           <div className="bere">
             {menuData.beverages.map((item) => (
+              <MenuItem
+                {...item}
+              />
+            ))}
+          </div>
+        )}
+        {menuSection === "cards" && (
+          <div className="carte">
+            {menuData.cards.map((item) => (
               <MenuItem
                 {...item}
               />

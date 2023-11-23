@@ -1,6 +1,6 @@
 import { MenuItem } from "./types";
 
-export const menuData: Record<'beverages' | 'food', MenuItem[]> = {
+export const menuData: Record<'beverages' | 'food' |'cards', MenuItem[]> = {
     "beverages": [
         {
             name: "Caffe",
@@ -28,7 +28,7 @@ export const menuData: Record<'beverages' | 'food', MenuItem[]> = {
         },
         {
             name: "Amari e Liquori",
-            description: "quali",
+            description: "acqua vite, mirto",
             cost: 3,
         }
         ],
@@ -50,6 +50,11 @@ export const menuData: Record<'beverages' | 'food', MenuItem[]> = {
             cost: 1.50 ,
         },
         {
+            name: "Toast e Tramezzini",
+            description: "prosciutto e formaggio",
+            cost: 2.50 ,
+        },
+        {
             name: "Waffle",
             description: "marmellata,nutella",
             cost: 3 , 
@@ -60,5 +65,19 @@ export const menuData: Record<'beverages' | 'food', MenuItem[]> = {
             cost: 0.50 ,
         },
 
+         ],
+
+    "cards":[
+
+        {
+            name: "Dolci",
+            description: "torta,crostate,brownies",
+            cost: 1.50,
+        },
+        {
+            name: "Pabassine",
+            cost: 2,
+        },
+        
     ]
 }
