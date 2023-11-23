@@ -34,7 +34,6 @@ export const menuData: Record<'beverages' | 'food' |'cards', MenuItem[]> = {
         ],
     
     "food":[
-
         {
             name: "Dolci",
             description: "torta,crostate,brownies",
