@@ -13,7 +13,7 @@ export const menuData: Record<'beverages' | 'food' | 'cards', MenuItem[]> = {
         },
         {
             name: "Succhi",
-            cost: 2,
+            cost: 1,
         },
         {
             name: "Té e tisane",
@@ -23,12 +23,12 @@ export const menuData: Record<'beverages' | 'food' | 'cards', MenuItem[]> = {
         {
             name: "Bibite",
             description: "cocacola, estathe",
-            cost: 2,
+            cost: 1.5,
         },
         {
             name: "Amari e Liquori",
             description: "acqua vite, mirto, montenegro",
-            cost: 2,
+            cost: 2.50,
         }
     ],
 
