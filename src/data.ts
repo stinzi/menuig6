@@ -59,7 +59,7 @@ export const menuData: Record<'beverages' | 'food' | 'cards', MenuItem[]> = {
         {
             name: "Tramezzini",
             description: "salame, pomodoro e maionese",
-            cost: 1,
+            cost: 0.50,
         },
         {
             name: "Waffle",
