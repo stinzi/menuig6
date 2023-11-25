@@ -35,8 +35,13 @@ export const menuData: Record<'beverages' | 'food' | 'cards', MenuItem[]> = {
     "food": [
         {
             name: "Dolci",
-            description: "torta, crostate, brownies,ciambelle",
+            description: "torta, crostate, brownies",
             cost: 1.50,
+        },
+        {
+            name: "Ciambelline",
+            description: "(con marmellata)",
+            cost: 1,
         },
         {
             name: "Pabassine",
