@@ -28,14 +28,14 @@ export const menuData: Record<'beverages' | 'food' | 'cards', MenuItem[]> = {
         {
             name: "Amari e Liquori",
             description: "acqua vite, mirto",
-            cost: 3,
+            cost: 2,
         }
     ],
 
     "food": [
         {
             name: "Dolci",
-            description: "torta, crostate, brownies",
+            description: "torta, crostate, brownies,ciambelle",
             cost: 1.50,
         },
         {
