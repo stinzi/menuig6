@@ -27,7 +27,7 @@ export const menuData: Record<'beverages' | 'food' | 'cards', MenuItem[]> = {
         },
         {
             name: "Amari e Liquori",
-            description: "acqua vite, mirto",
+            description: "acqua vite, mirto, montenegro",
             cost: 2,
         }
     ],
@@ -53,9 +53,9 @@ export const menuData: Record<'beverages' | 'food' | 'cards', MenuItem[]> = {
             cost: 1.50,
         },
         {
-            name: "Toast e Tramezzini",
-            description: "prosciutto e formaggio",
-            cost: 2.50,
+            name: "Tramezzini",
+            description: "salame, pomodoro e maionese",
+            cost: 1.50,
         },
         {
             name: "Waffle",
