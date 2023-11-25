@@ -18,7 +18,7 @@ export const menuData: Record<'beverages' | 'food' | 'cards', MenuItem[]> = {
         {
             name: "Té e tisane",
             description: "(calde)",
-            cost: 1.50,
+            cost: 1,
         },
         {
             name: "Bibite",
@@ -49,7 +49,7 @@ export const menuData: Record<'beverages' | 'food' | 'cards', MenuItem[]> = {
         },
         {
             name: "Pabassine",
-            cost: 2,
+            cost: 1,
         },
         {
             name: "Salato",
